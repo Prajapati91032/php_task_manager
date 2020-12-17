@@ -1,0 +1,18 @@
+1.List : Group of tasks
+
+tbl_lists
+
+list_id (Pk)
+list_name
+list_discription
+
+2.Tasks
+
+tbl_tasks
+
+task_id
+task_name
+task_discription
+list_id
+priority
+deadline

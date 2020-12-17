@@ -1,0 +1,123 @@
+/*
+    Thems - Task manager
+    version - 0.0.1
+    Author - Rahul Prajapati
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper{
+    width: 70%;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+h1{
+    color: #3B3B98;
+    margin-bottom: 2%;
+}
+
+h3{
+    margin: 2% 0;
+}
+
+.menu{
+    margin-bottom: 2%;
+}
+
+.menu a{
+    font-weight: bold;
+    margin-right: 1%;
+    margin-bottom: 2%;
+    color: black;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+    color:#FC427B;
+}
+
+.btn-primary{
+    /*background-color: #3498db;*/
+    color: black;
+    padding: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-primary:hover{
+    text-decoration: underline;
+    color: #FC427B;
+}
+
+.btn-lg{
+    width: 50%;
+    background-color: #2c3e50;
+    color: white;
+}
+
+.btn-lg:hover{
+    background-color: #95a5a6;
+}
+
+.btn-secondry{
+    color: black;
+    padding: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-secondry:hover{
+    text-decoration: underline;
+    color: #FC427B;
+}
+
+.btn-update{
+    color: white;
+    background-color: #1B1464;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.btn-update:hover{
+    background-color: #0652DD;
+    text-decoration: underline;
+}
+
+.btn-delete{
+    color: white;
+    background-color: #EA2027;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.btn-delete:hover{
+    background-color: #B53471;
+    text-decoration: underline;
+}
+
+.tbl-full{
+    width: 100%;
+}
+
+table tr th{
+    text-align: left;
+    border-bottom: 1px solid black;
+    padding: 1%;
+    padding-top: 3%;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+.tbl-half{
+    width: 40%;
+}
